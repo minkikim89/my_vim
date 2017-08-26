@@ -25,20 +25,18 @@ else
 endif
 set csverb
 set tagbsearch
+set hlsearch                                   "search highlighting.
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+set rtp+=~/.vim/bundle/vundle
 
- Plugin 'The-NERD-Tree'
- Plugin 'Taglist.vim'
- Plugin 'AutoComplPop'
- Plugin 'snipMate'
- Plugin 'Source-Explorer-srcexpl.vim'
- Plugin 'ntpeters/vim-better-whitespace'
-
-call vundle#end()
+ Bundle 'The-NERD-Tree'
+ Bundle 'Taglist.vim'
+ Bundle 'AutoComplPop'
+ Bundle 'snipMate'
+ Bundle 'Source-Explorer-srcexpl.vim'
+ Bundle 'ntpeters/vim-better-whitespace'
 
 filetype plugin indent on    " required
 
